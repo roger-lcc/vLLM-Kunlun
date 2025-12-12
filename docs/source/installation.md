@@ -90,7 +90,7 @@ pip install https://cce-ai-models.bj.bcebos.com/liangyucheng/xspeedgate_ops-0.0.
 ### Set up the environment
 
 ```
-chmod +x /workspace/vllm-kunlun/setup_env.sh && source /workspace/vllm-kunlun/setup_env.sh
+chmod +x /workspace/vLLM-Kunlun/setup_env.sh && source /workspace/vLLM-Kunlun/setup_env.sh
 ```
 
 ### Run the server
