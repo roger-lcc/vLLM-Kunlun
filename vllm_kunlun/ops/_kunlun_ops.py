@@ -214,8 +214,7 @@ class KunlunOps:
         query_x = query_x.view(num_tokens, num_heads * head_size)
         key_x = key_x.view(num_tokens, num_kv_heads * head_size)
 
-        # query.data = query_x
-        # key.data  = key_x
+
         return query_x, key_x
 
     # Rotary embedding
